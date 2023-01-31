@@ -29,6 +29,7 @@
 #include "qapi/qmp/qstring.h"
 #include "qapi/qmp/qnum.h"
 #include "user.h"
+#include "trace.h"
 
 static uint64_t max_xfer_size = VFIO_USER_DEF_MAX_XFER;
 static uint64_t max_send_fds = VFIO_USER_DEF_MAX_FDS;
